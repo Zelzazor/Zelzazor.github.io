@@ -1,0 +1,28 @@
+#main{
+    border: solid 2px black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+    height: 97vh;
+}
+
+.btn{
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 1%;
+    transition-duration: 0.3s;
+    outline: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+}
+
+#api-img{
+    border-radius: 5px;
+}
