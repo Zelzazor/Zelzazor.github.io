@@ -96,6 +96,11 @@ p{
 
     .sect-1{
         width: 50%;
+        font-size: 3vh;
+    }
+
+    .foot{
+        font-size: 3vh;
     }
 }
 
