@@ -45,8 +45,11 @@
 
 .sect-1{
     width: 75%;
+    text-align: center;
     background-color: rgb(211, 211, 211);
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     min-height: 80vh;
+    font-size: 4vh;
 }
 
 .foot{
@@ -60,9 +63,32 @@
 
 .text-foot{
     color: white;
+    font-size: 4vh;
 }
 
-@media(max-width: 700px){
+
+.intro{
+    padding: 4%;
+}
+
+.content{
+    padding: 4% 6%;
+    text-align: justify;
+}
+
+.img{
+    width: 50%;
+    border: solid #EEEEEE 6px;
+    border-radius: 3px;
+}
+
+p{
+    padding-bottom: 2vh;
+}
+
+
+
+@media(max-width: 768px){
 
     .nav-side{
         width: 50%;
@@ -73,7 +99,7 @@
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 425px){
 
     .nav-side{
         width: 100%;
