@@ -1,6 +1,7 @@
 const input = document.querySelector('#numberInput');
 const result = document.querySelector('#result');
 
+//Pone el resultado del factorial en la página
 input.addEventListener('input', () => {
     if(input.value !== '' && input.value !== '0'){
         const num = factorial(parseInt(input.value));
@@ -10,17 +11,13 @@ input.addEventListener('input', () => {
         else{
             result.innerHTML = `El resultado es: ${num}`;
         }
-        
-
     }
     else{
         result.innerHTML = `El resultado es:`
     }
-    
 });
 
 const factorial = (number) =>{
-
     if(number === 1){
         return 1;
     }
