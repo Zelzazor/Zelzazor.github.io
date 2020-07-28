@@ -5,7 +5,7 @@ const countryCont = document.getElementById('country');
 const imgCont = document.getElementById('api-img');
 
 const generateAPI = async () => {
-    const response = await fetch('https://randomuser.me/apo/');
+    const response = await fetch('https://randomuser.me/api/');
     const json = await response.json();
     const result = await json.results[0];
     const {name: {first}, name: {last}, location: {country}, email, picture: {large}} = result;
